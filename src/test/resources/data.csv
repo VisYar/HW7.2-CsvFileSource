@@ -1,0 +1,8 @@
+'shouldCalculateForRegisteredAndUnderLimit', 1000, true, 30
+'shouldCalculateForRegisteredAndOverLimit', 1000000, true, 500
+'shouldCalculateForNoRegisteredAndUnderLimit', 1000, false, 10
+'shouldCalculateForNoRegisteredAndBorderLimit', 50000, false, 500
+'shouldCalculateForNoRegisteredAndBorderToLimit', 49999, false, 499
+'shouldCalculateForNoRegisteredAndBorderAfterLimit', 50001, false, 500
+'shouldCalculateForRegisteredAndBorderToLimit', 16666, true, 499
+'shouldCalculateForRegisteredAndBorderAfterLimit', 16667,true, 500
